@@ -339,6 +339,10 @@ img {
 
 }
 
+.social-icon:hover {
+    background: var(--accent-color);
+}
+
 .social-icon:hover svg {
     fill: var(--accent-color)
 }
@@ -388,17 +392,27 @@ img {
 }
 
 .clients-item {
+    margin-right: 30px;
+}
+
+.clients-icon {
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 170px;
     height: 92px;
-    margin-right: 30px;
+
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
 }
+
+.clients-item:hover svg {
+    fill: var(--accent-color)
+}
+
+
 
 /* .title-clients {
 
@@ -464,6 +478,11 @@ img {
 
 }
 
+
+
+.footer-item-icon:hover {
+    background: var(--accent-color);
+}
 
 .white {
     color: var(--additional-text-color-2);
@@ -535,6 +554,7 @@ img {
 .button-item:hover,
 .button-item:focus {
     color: var(--accent-color);
+
 }
 
 /* контент */
